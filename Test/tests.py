@@ -2,6 +2,7 @@ from django.test import TestCase
 from django.contrib.auth.hashers import make_password, check_password
 from api.models import ConoceServiciosEmergencia, ConoceNumerosEmergencia, Uso911, RapidezServicio, UsarAppEmergencia, AvisosRecomendaciones, MapaInteractivo, PaletaColores, Formulario, Usuario, SupUsuario
 
+
 class ModelTests(TestCase):
     def test_crear_instancia_conoce_servicios_emergencia(self):
         # Crea una instancia del modelo ConoceServiciosEmergencia y realiza pruebas
